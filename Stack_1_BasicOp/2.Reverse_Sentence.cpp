@@ -17,7 +17,7 @@ void ReverseSentence(string s)
         }
         st.push(word);
     }
-
+  
 
     while( !st.empty())
     {
@@ -27,12 +27,37 @@ void ReverseSentence(string s)
     cout<<endl; 
 }
 
+// Reversing a word   
+/*
+void Reverse(string s)
+{
+    stack<char> st;
+    for(int i=0; i<s.length(); i++)
+    {
+       st.push(s[i]);
+    }
+
+    while(!st.empty())
+    {
+        cout<<st.top();
+        st.pop();
+    }
+}
+*/
 
 int main()
 {
     string s ="Hey, how are you doing?";
     
     ReverseSentence(s);
+
+
+    /*   if u want to read an entire sentense from user without any miss
+    string s;
+    getline(cin, s);
+    Reverse(s);
+
+   */
 
     return 0;
 }

@@ -37,7 +37,7 @@ int main()
 
   int arr[] = {0,0,1,1,0,0,1,1,1,0,1,1,0,0,0,1,1,1,1};
 
-  cout<<MaxConsecutiveOnes(arr, 19, 3);
+  cout<<MaxConsecutiveOnes(arr, 19, 3); // 10
 
   //  n=10   1,1,0,0,0,1,1,1,1,1                        k= 2   0/p = 7
   //  n= 11  1,1,1,0,0,0,1,1,1,1,0                        k=2    0/p = 6

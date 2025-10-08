@@ -78,7 +78,7 @@ string InfixtoPostfix(string s)
 
 int main()
 {
-  cout<<InfixtoPostfix("(a-b/c)*(a/k-l)");
+  cout<<InfixtoPostfix("(a-b/c)*(a/k-l)"); // abc/-ak/l-*
   
   //(a*b)+c check out this one also
     return 0;

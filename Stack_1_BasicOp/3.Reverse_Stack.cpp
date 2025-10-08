@@ -2,7 +2,6 @@
 #include<stack>
 using namespace std;
 
-
  void InsertAtBottom(stack <int> &st, int ele)
  {
     if(st.empty())
@@ -33,9 +32,6 @@ void Reverse(stack <int> &st )
 
     InsertAtBottom(st,ele);
 }
-
-
-
 
 
 int main()
